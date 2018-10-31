@@ -33,4 +33,12 @@ public class Student extends Person
         return gradeRecord;
     }
     
+    public Double getAverageGrade()
+    {
+        for (GradeInfo gradeInfo : gradeRecord)
+        {
+            gradeInfo.getGrade();
+        }
+        return getAverageGrade();
+    }
 }

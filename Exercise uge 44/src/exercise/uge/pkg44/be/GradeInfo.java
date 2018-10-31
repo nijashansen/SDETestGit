@@ -26,10 +26,9 @@ public class GradeInfo extends Student
         return subject;
     }
 
-    public GradeInfo(int grade, int id, String name, String education)
+    public int getGrade()
     {
-        super(id, name, education);
-        this.grade = grade;
+        return grade;
     }
 
     @Override
