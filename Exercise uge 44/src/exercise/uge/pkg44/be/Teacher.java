@@ -17,14 +17,13 @@ public class Teacher extends Person
     
     private String initials;
     private Double salary;
+    List<String> subjects = new ArrayList<>();
     
     public Teacher(int id, String name, String initials)
     {
         super(id, name);
         this.initials = initials;
     }
-    
-    List<String> subjects = new ArrayList<>();
     
     public ArrayList<String> getSubjects()
     {

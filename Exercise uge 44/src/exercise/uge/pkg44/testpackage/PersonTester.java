@@ -41,6 +41,22 @@ public class PersonTester {
     public PersonTester()
     {
         mads.setEmail("mads@easv.dk");
+        jens.setEmail("jens@easv.dk");
+        Kristian.setEmail("kristian@easv.dk");
+        lars.setEmail("lars@easv.dk");
+        lars.setSalary(25.367);
+        lars.addSubject("Programmer");
+        karl.setEmail("karl@easv.dk");
+        karl.setSalary(25.692);
+        karl.addSubject("Data Manager");
+        bo.setEmail("bo@easv.dk");
+        bo.setSalary(28.293);
+        bo.addSubject("CEO");
         persons.add(mads);
+        persons.add(jens);
+        persons.add(Kristian);
+        persons.add(lars);
+        persons.add(karl);
+        persons.add(bo);
     }
 }
