@@ -1,0 +1,2 @@
+//dette er et program
+system.out.println("Hello World");
