@@ -12,9 +12,9 @@ package exercise.uge.pkg44.be;
 public class GradeInfo
 {
     private String subject;
-    private int grade;
+    private double grade;
 
-    public GradeInfo(String subject, int grade)
+    public GradeInfo(String subject, double grade)
     {
         this.subject = subject;
         this.grade = grade;
@@ -25,7 +25,7 @@ public class GradeInfo
         return subject;
     }
 
-    public int getGrade()
+    public double getGrade()
     {
         return grade;
     }

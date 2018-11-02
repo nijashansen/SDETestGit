@@ -56,11 +56,16 @@ public class PersonTester {
         bo.setEmail("bo@easv.dk");
         bo.setSalary(28.293);
         bo.addSubject("CEO");
+        jørgen.addGrade("Dabbing", 13);
+        jørgen.setEmail("jørgen@easv.dk");
+        jørgen.setName("Jørgen");
+        jørgen.setId(200);
         persons.add(mads);
         persons.add(jens);
         persons.add(Kristian);
         persons.add(lars);
         persons.add(karl);
         persons.add(bo);
+        persons.add(jørgen);
     }
 }

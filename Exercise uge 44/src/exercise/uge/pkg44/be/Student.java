@@ -43,4 +43,18 @@ public class Student extends Person
         }
         return avarage / gradeRecord.size();
     }
+    
+    public void addGrade(String subjekt, double grade)
+    {
+        GradeInfo gradesub = new GradeInfo(subjekt, grade);
+        gradeRecord.add(gradesub);
+    }
+
+    @Override
+    public String toString()
+    {
+        return "Student{" + "education=" + education + ", gradeRecord=" + gradeRecord + '}';
+    }
+    
+    
 }
