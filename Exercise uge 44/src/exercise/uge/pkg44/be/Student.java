@@ -35,10 +35,12 @@ public class Student extends Person
     
     public Double getAverageGrade()
     {
+        double avarage = 0;
         for (GradeInfo gradeInfo : gradeRecord)
         {
             gradeInfo.getGrade();
+            avarage = avarage + gradeInfo.getGrade();
         }
-        return getAverageGrade();
+        return avarage / gradeRecord.size();
     }
 }

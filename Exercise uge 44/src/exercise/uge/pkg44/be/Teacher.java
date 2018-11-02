@@ -53,7 +53,7 @@ public class Teacher extends Person
     @Override
     public String toString()
     {
-        return super.toString() + "initials= " + initials + ", salary= " + salary + ", subjects= " + subjects;
+        return super.toString() + " initials= " + initials + ", salary= " + salary + ", subjects= " + subjects;
     }
     
     

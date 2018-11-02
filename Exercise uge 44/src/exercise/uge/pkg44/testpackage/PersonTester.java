@@ -6,6 +6,7 @@
 package exercise.uge.pkg44.testpackage;
 
 import exercise.uge.pkg44.be.Person;
+import exercise.uge.pkg44.be.Student;
 import exercise.uge.pkg44.be.Teacher;
 import java.util.ArrayList;
 import java.util.List;
@@ -28,6 +29,9 @@ public class PersonTester {
         Teacher karl = new Teacher(101, "Karl", "K");
         Teacher bo = new Teacher(102, "Bo", "B");
     
+        Student jørgen = new Student(200, "Jørgen", "Datamatiker");
+        Student mathias = new Student(201, "Mathias", "Datamatiker");
+        Student stine = new Student(202, "Kaj", "Markedsøkonom");
     
     public void printPerson()
     {

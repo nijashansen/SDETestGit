@@ -9,14 +9,13 @@ package exercise.uge.pkg44.be;
  *
  * @author nijashansen
  */
-public class GradeInfo extends Student
+public class GradeInfo
 {
     private String subject;
     private int grade;
 
-    public GradeInfo(String subject, int grade, int id, String name, String education)
+    public GradeInfo(String subject, int grade)
     {
-        super(id, name, education);
         this.subject = subject;
         this.grade = grade;
     }
