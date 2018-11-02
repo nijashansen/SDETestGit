@@ -38,19 +38,34 @@ public class Person
     }
     
     
-
+    /**
+     * 
+     * @returns name 
+     */
     public String getName() {
         return name;
     }
 
+    /**
+     * 
+     * @param sets the name
+     */
     public void setName(String name) {
         this.name = name;
     }
 
+    /**
+     * 
+     * @return id  
+     */
     public int getId() {
         return id;
     }
 
+    /**
+     * 
+     * @param sets id 
+     */
     public void setId(int id) {
         this.id = id;
     }
@@ -75,11 +90,13 @@ public class Person
         this.email = email;
     }
 
+    /**
+     * 
+     * @returns the variables to a string
+     */
     @Override
     public String toString()
     {
         return "id=" + id + ", name= " + name + ", email= " + email;
     }
-
-    
 }
